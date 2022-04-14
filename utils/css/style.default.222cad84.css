@@ -3342,7 +3342,7 @@ textarea.form-control-lg{
     border-top-left-radius:0;
     border-top-right-radius:0
 }
-.nav{
+.nav,.nav2{
     display:flex;
     flex-wrap:wrap;
     padding-left:0;
