@@ -3587,6 +3587,9 @@ textarea.form-control-lg{
     .navbar-expand-md .navbar-toggler{
         display:none
     }
+    .navbar-expand-md .test1{
+        display:none
+    }
     .navbar-expand-md .offcanvas-header{
         display:none
     }
@@ -3637,6 +3640,9 @@ textarea.form-control-lg{
         flex-basis:auto
     }
     .navbar-expand-lg .navbar-toggler{
+        display:none
+    }
+    .navbar-expand-lg .test1{
         display:none
     }
     .navbar-expand-lg .offcanvas-header{
@@ -3691,6 +3697,9 @@ textarea.form-control-lg{
     .navbar-expand-xl .navbar-toggler{
         display:none
     }
+    .navbar-expand-xl .test1{
+        display:none
+    }
     .navbar-expand-xl .offcanvas-header{
         display:none
     }
@@ -3743,6 +3752,9 @@ textarea.form-control-lg{
     .navbar-expand-xxl .navbar-toggler{
         display:none
     }
+    .navbar-expand-xxl .test1{
+        display:none
+    }
     .navbar-expand-xxl .offcanvas-header{
         display:none
     }
@@ -3792,6 +3804,9 @@ textarea.form-control-lg{
     flex-basis:auto
 }
 .navbar-expand .navbar-toggler{
+    display:none
+}
+.navbar-expand .test1{
     display:none
 }
 .navbar-expand .offcanvas-header{
