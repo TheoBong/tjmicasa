@@ -18,7 +18,7 @@
     <!-- Magnigic Popup-->
     <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/magnific-popup/magnific-popup.css">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/css/style.default.222cad84.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="../utils/css/style.default.222cad84.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
     <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/css/custom.0a822280.css">
     <!-- Favicon-->
@@ -36,8 +36,20 @@
         <div class="container-fluid">
           <div class="d-flex align-items-center"><a class="navbar-brand text-uppercase fw-bold" href="https://www.tjmicasa.com/"><span>&nbsp&nbsp&nbsp&nbspTJMiCasa.com  </span></a>
           </div>
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+          
+          <div>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#languageCollapse" aria-controls="languageCollapse" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-language"></i></button>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+          </div>
+          
           <!-- Navbar Collapse -->
+          <div class="collapse navbar-collapse" id="languageCollapse">
+            <ul class="test1 navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link disabled" href="#">English <span class="badge badge-info-light ms-1 mt-n1">Selected</span></a></li>
+              <li class="nav-item"><a class="nav-link" href="https://www.tjmicasa.com/kn/">한국인 </a></li>
+            </ul>
+          </div>
+            
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item"><a class="nav-link" href="https://www.tjmicasa.com/about/">About</a></li>
@@ -45,6 +57,10 @@
               <li class="nav-item"><a class="nav-link" href="https://www.tjmicasa.com/#testimonials">Testimonials</a></li>
               <li class="nav-item"><a class="nav-link" href="https://www.tjmicasa.com/contact/">Contact</a></li>
               <li class="nav-item"><a class="nav-link" href="https://www.tjmicasa.com/faqs/">FAQs</a></li>
+              
+              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle " id="homeDropdownMenuLink" href="https://www.tjmicasa.com/" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Language / 언어</a>
+                <div class="dropdown-menu" aria-labelledby="homeDropdownMenuLink"><a class="dropdown-item disabled" href="#">English <span class="badge badge-info-light ms-1 mt-n1">Selected</span></a><a class="dropdown-item" href="https://www.tjmicasa.com/kn/">한국인</a></div>
+              </li>
               <li class="nav-item mt-3 mt-lg-0 ms-lg-3 d-lg-none d-xl-inline-block"><a class="btn btn-primary" href="https://www.tjmicasa.com/listings/">View Listings</a></li>
             </ul>
           </div>
